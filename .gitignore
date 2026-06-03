@@ -6,7 +6,14 @@ local/
 
 # Ignore the Gemfile that is generated
 Gemfile.lock
+.bundle/
 
 # Ingore files created by npm
 node_modules
 package-lock.json
+
+# Ignore locally installed Ruby gems
+vendor/
+
+# Ignore local brainstorming/mockup companion files
+.superpowers/
