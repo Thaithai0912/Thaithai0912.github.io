@@ -29,6 +29,7 @@ Research interests
 * Long-context language modeling
 * Efficient attention mechanisms
 * LLM pretraining, scaling, data engineering, and evaluation
+* Practical AI systems and real-world impact
 
 Selected experience
 ======
@@ -44,15 +45,37 @@ Selected projects and publications
 ======
 
 * Hybrid Linear Attention Done Right
-  * Hybrid sparse/linear attention architecture deployed in MiniCPM-SALA for long-context modeling.
-* DecorateLM: Data Engineering for Corpora via LMs
-  * EMNLP 2024 Main. Data engineering pipeline for pretraining corpora via rating, tagging, and editing.
-* Cost Optimal Grouped-Query Attention for Long-Context Modeling
-  * EMNLP 2025 Main. Long-context grouped-query attention work reducing memory and compute cost.
-* MiniCPM: Unveiling the Potential of Small LMs
-  * COLM 2024. Small language model training and scaling work.
-* Between a Rock and a Hard Place: Ethical Reasoning and Safety Alignment
-  * Safety alignment and multi-turn red-teaming research.
+  * AdaptFM Workshop; EMNLP under review.
+  * Authors: Yingfa Chen, Zhen Leng Thai, Zihan Zhou, Zhu Zhang, Xingyu Shen, Shuo Wang, Chaojun Xiao, Xu Han, Zhiyuan Liu.
+  * Hybrid sparse/linear attention architecture for efficient long-context modeling in MiniCPM-SALA.
+* Between a Rock and a Hard Place: The Tension Between Ethical Reasoning and Safety Alignment in LLMs
+  * ACL 2026.
+  * Authors: Shei Pern Chua, Zhen Leng Thai, Kai Jun Teh, Xiao Li, Qibing Ren, Xiaolin Hu.
+  * Safety alignment and ethical reasoning research for complex moral reasoning settings.
+* StateX: Enhancing RNN Recall via Post-training State Expansion
+  * ACL 2026 Findings.
+  * Authors: Xingyu Shen, Yingfa Chen, Zhen Leng Thai, Xu Han, Zhiyuan Liu, Maosong Sun.
+  * Post-training state expansion for improving recurrent model recall.
+* Cost-Optimal Grouped-Query Attention for Long-Context Modeling
+  * EMNLP 2025.
+  * Authors: Yingfa Chen, Yutong Wu, Chenyang Song, Zhen Leng Thai, Xingyu Shen, Xu Han, Zhiyuan Liu, Maosong Sun.
+  * Cost-aware grouped-query attention design for long-context modeling.
+* DecorateLM: Data Engineering Through Corpus Rating, Tagging, and Editing with Language Models
+  * EMNLP 2024.
+  * Authors: Ranchi Zhao, Zhen Leng Thai, Yifan Zhang, Shengding Hu, Jie Zhou, Yunqi Ba, Jie Cai, Zhiyuan Liu, Maosong Sun.
+  * Data engineering pipeline for pretraining corpora via rating, tagging, and editing.
+* ∞Bench: Extending Long Context Evaluation Beyond 100K Tokens
+  * ACL 2024.
+  * Authors: Xinrong Zhang, Yingfa Chen, Shengding Hu, Zihang Xu, Junhao Chen, Moo Khai Hao, Xu Han, Zhen Leng Thai, Shuo Wang, Zhiyuan Liu, Maosong Sun.
+  * Long-context benchmark extending model evaluation beyond 100K tokens.
+* OlympiadBench: A Challenging Benchmark for Promoting AGI with Olympiad-Level Bilingual Multimodal Scientific Problems
+  * ACL 2024.
+  * Authors: Chaoqun He, Renjie Luo, Yuzhuo Bai, Shengding Hu, Zhen Leng Thai, Junhao Shen, Jinyi Hu, Xu Han, Yujie Huang, Yuxiang Zhang, Jie Liu, Lei Qi, Zhiyuan Liu, Maosong Sun.
+  * Bilingual multimodal scientific reasoning benchmark based on Olympiad-level problems.
+* MiniCPM: Unveiling the Potential of Small Language Models with Scalable Training Strategies
+  * COLM 2024.
+  * Authors: Shengding Hu, Yuge Tu, Xu Han, Chaoqun He, Ganqu Cui, Xiang Long, Zhi Zheng, Yewei Fang, Yuxiang Huang, Weilin Zhao, Xinrong Zhang, Zhen Leng Thai, Kaihuo Zhang, Chongyi Wang, Yuan Yao, Chenyang Zhao, Jie Zhou, Jie Cai, Zhongwu Zhai, Ning Ding, Chao Jia, Guoyang Zeng, Dahai Li, Zhiyuan Liu, Maosong Sun.
+  * Scalable training strategies for capable small language models.
 
 Awards
 ======
@@ -74,7 +97,7 @@ Skills and languages
 Interests
 ======
 
-Music, movies, and sports.
+Music, movies, and sports. I enjoy creative and curious conversations about how AI can become useful, trustworthy, and genuinely helpful.
 
 Contact
 ======

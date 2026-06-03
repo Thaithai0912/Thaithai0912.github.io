@@ -279,6 +279,21 @@ body.personal-home {
   padding-left: 1.05rem;
 }
 
+.paper-meta {
+  color: #0f172a !important;
+  font-size: 0.78rem !important;
+  font-weight: 700;
+  letter-spacing: 0.08em;
+  line-height: 1.45 !important;
+  text-transform: uppercase;
+}
+
+.paper-authors {
+  color: #64748b !important;
+  font-size: 0.86rem !important;
+  line-height: 1.55 !important;
+}
+
 .text-link {
   border-bottom: 1px solid currentColor;
   color: #0f172a;

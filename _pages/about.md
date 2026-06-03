@@ -2,7 +2,7 @@
 layout: home
 permalink: /
 title: "Thai Zhen Leng 戴振宁"
-excerpt: "Final-year Master's student at THUNLP, Tsinghua University, researching efficient LLM architectures for long-context language modeling."
+excerpt: "Final-year Master's student at THUNLP, Tsinghua University, working on long-context modeling, efficient LLM architectures, and AI systems with real-world impact."
 author_profile: false
 redirect_from:
   - /about/
@@ -29,8 +29,9 @@ redirect_from:
 
       <p class="hero-intro">
         I am a final-year Master's student in Computer Science at Tsinghua University,
-        advised by Prof. Zhiyuan Liu at THUNLP. My research focuses on efficient
-        architectures for long-context language modeling.
+        advised by Prof. Zhiyuan Liu at THUNLP. I work on long-context language
+        models and efficient AI architectures, with a long-term goal of turning
+        strong research ideas into practical systems that create meaningful impact.
       </p>
 
       <div class="hero-links" aria-label="Key links">
@@ -43,8 +44,8 @@ redirect_from:
     <div class="hero-keywords" aria-label="Research keywords">
       <span>LLM Architecture</span>
       <span>Long Context</span>
-      <span>Pretraining</span>
-      <span>Data Engineering</span>
+      <span>AI Evaluation</span>
+      <span>Practical AI</span>
     </div>
   </header>
 </div>
@@ -52,50 +53,84 @@ redirect_from:
 <main class="home-main">
   <section class="home-section" id="research">
     <p class="section-kicker">Research</p>
-    <h2 class="section-title">I build and study language model architectures for long-context reasoning and efficient scaling.</h2>
+    <h2 class="section-title">I want to build AI systems that are capable, efficient, and useful in the real world.</h2>
     <p class="section-lede">
-      My work spans LLM pretraining, scaling, data engineering, benchmark evaluation,
-      and model architecture design. I am especially interested in how efficient
-      attention and architecture choices can make long-context language models more
-      capable in real-world settings.
+      I am fascinated by large language models not only as research objects, but as
+      tools that can help people reason, learn, create, and solve practical problems.
+      My work spans long-context modeling, efficient architectures, pretraining, data
+      engineering, and AI evaluation. Across these directions, I care about one core
+      question: how can we make AI systems more capable while keeping them practical
+      enough to benefit people and society?
     </p>
 
     <div class="research-grid">
       <article class="info-block">
         <h3>Long-context modeling</h3>
-        <p>Designing architectures and training strategies that extend context length without losing efficiency or retrieval quality.</p>
+        <p>I study how language models can remember, retrieve, and reason over very long inputs, so they can support more realistic tasks than short-context benchmarks allow.</p>
       </article>
       <article class="info-block">
         <h3>Efficient LLM architecture</h3>
-        <p>Exploring sparse, linear, and hybrid attention mechanisms for practical high-performance language models.</p>
+        <p>I explore sparse, linear, hybrid, and recurrent-style architectures that make strong models faster and more scalable without losing core capabilities.</p>
       </article>
       <article class="info-block">
-        <h3>Pretraining and evaluation</h3>
-        <p>Working across data quality, scaling behavior, benchmark design, and model analysis for large language models.</p>
+        <h3>Data and evaluation</h3>
+        <p>I work on data engineering and benchmarks because better AI depends on better training signals and clearer ways to measure what models can actually do.</p>
       </article>
     </div>
   </section>
 
   <section class="home-section" id="publications">
     <p class="section-kicker">Selected work</p>
-    <h2 class="section-title">A few projects that shape my current research direction.</h2>
+    <h2 class="section-title">Selected research on long-context models, efficient architectures, and trustworthy evaluation.</h2>
 
     <div class="work-list">
       <article class="info-block">
         <h3>Hybrid Linear Attention Done Right</h3>
-        <p>Worked on MiniCPM-SALA, a hybrid sparse/linear attention architecture for faster inference and long-context modeling.</p>
+        <p class="paper-meta">AdaptFM Workshop · EMNLP under review</p>
+        <p class="paper-authors">Yingfa Chen, Zhen Leng Thai, Zihan Zhou, Zhu Zhang, Xingyu Shen, Shuo Wang, Chaojun Xiao, Xu Han, Zhiyuan Liu</p>
+        <p>This work studies how to make hybrid attention practical for extremely long contexts. I worked on the MiniCPM-SALA direction, which combines sparse and linear mechanisms to improve long-context efficiency while preserving useful model behavior.</p>
       </article>
       <article class="info-block">
-        <h3>DecorateLM</h3>
-        <p>Data engineering for corpora via language models, improving pretraining data through rating, tagging, and editing.</p>
+        <h3>Between a Rock and a Hard Place: The Tension Between Ethical Reasoning and Safety Alignment in LLMs</h3>
+        <p class="paper-meta">ACL 2026</p>
+        <p class="paper-authors">Shei Pern Chua, Zhen Leng Thai, Kai Jun Teh, Xiao Li, Qibing Ren, Xiaolin Hu</p>
+        <p>This work examines a difficult question in AI safety: models may appear aligned in simple settings but struggle when ethical reasoning becomes complex. It matters because safer AI systems need to handle nuance, not only refuse obvious harms.</p>
       </article>
       <article class="info-block">
-        <h3>Cost Optimal Grouped-Query Attention</h3>
-        <p>Long-context modeling work that studies memory and compute trade-offs in grouped-query attention configurations.</p>
+        <h3>StateX: Enhancing RNN Recall via Post-training State Expansion</h3>
+        <p class="paper-meta">ACL 2026 Findings</p>
+        <p class="paper-authors">Xingyu Shen, Yingfa Chen, Zhen Leng Thai, Xu Han, Zhiyuan Liu, Maosong Sun</p>
+        <p>StateX improves recurrent model recall by expanding state capacity after training. The project connects to my broader interest in memory-efficient long-context modeling beyond standard attention.</p>
       </article>
       <article class="info-block">
-        <h3>MiniCPM</h3>
-        <p>Contributed to small language model training and scaling work in the MiniCPM series.</p>
+        <h3>Cost-Optimal Grouped-Query Attention for Long-Context Modeling</h3>
+        <p class="paper-meta">EMNLP 2025</p>
+        <p class="paper-authors">Yingfa Chen, Yutong Wu, Chenyang Song, Zhen Leng Thai, Xingyu Shen, Xu Han, Zhiyuan Liu, Maosong Sun</p>
+        <p>This work studies how grouped-query attention can be configured for long-context models under real memory and compute budgets. It matters because architecture choices should be not only accurate, but cost-aware and deployable.</p>
+      </article>
+      <article class="info-block">
+        <h3>DecorateLM: Data Engineering Through Corpus Rating, Tagging, and Editing with Language Models</h3>
+        <p class="paper-meta">EMNLP 2024</p>
+        <p class="paper-authors">Ranchi Zhao, Zhen Leng Thai, Yifan Zhang, Shengding Hu, Yunqi Ba, Jie Zhou, Jie Cai, Zhiyuan Liu, Maosong Sun</p>
+        <p>DecorateLM uses language models to rate, tag, and edit corpora for pretraining. The work reflects my belief that better models often begin with better data, not only bigger architectures.</p>
+      </article>
+      <article class="info-block">
+        <h3>∞Bench: Extending Long Context Evaluation Beyond 100K Tokens</h3>
+        <p class="paper-meta">ACL 2024</p>
+        <p class="paper-authors">Xinrong Zhang, Yingfa Chen, Shengding Hu, Zihang Xu, Junhao Chen, Moo Khai Hao, Xu Han, Zhen Leng Thai, Shuo Wang, Zhiyuan Liu, Maosong Sun</p>
+        <p>∞Bench evaluates language models on contexts beyond 100K tokens. It helps the community see where long-context models genuinely work, where they fail, and what capabilities are still missing.</p>
+      </article>
+      <article class="info-block">
+        <h3>OlympiadBench: A Challenging Benchmark for Promoting AGI with Olympiad-Level Bilingual Multimodal Scientific Problems</h3>
+        <p class="paper-meta">ACL 2024</p>
+        <p class="paper-authors">Chaoqun He, Renjie Luo, Yuzhuo Bai, Shengding Hu, Zhen Leng Thai, Junhao Shen, Jinyi Hu, Xu Han, Yujie Huang, Yuxiang Zhang, Jie Liu, Lei Qi, Zhiyuan Liu, Maosong Sun</p>
+        <p>OlympiadBench tests models on difficult bilingual, multimodal scientific problems. I value this line of work because challenging evaluation reveals whether AI systems can support deeper reasoning rather than surface-level pattern matching.</p>
+      </article>
+      <article class="info-block">
+        <h3>MiniCPM: Unveiling the Potential of Small Language Models with Scalable Training Strategies</h3>
+        <p class="paper-meta">COLM 2024</p>
+        <p class="paper-authors">Shengding Hu, Yuge Tu, Xu Han, Chaoqun He, Ganqu Cui, Xiang Long, Zhi Zheng, Yewei Fang, Yuxiang Huang, Weilin Zhao, Xinrong Zhang, Zhen Leng Thai, Kaihuo Zhang, Chongyi Wang, Yuan Yao, Chenyang Zhao, Jie Zhou, Jie Cai, Zhongwu Zhai, Ning Ding, Chao Jia, Guoyang Zeng, Dahai Li, Zhiyuan Liu, Maosong Sun</p>
+        <p>MiniCPM explores scalable strategies for training capable small language models. I contributed to the broader MiniCPM effort, which is important because practical AI often depends on models that are efficient enough to deploy widely.</p>
       </article>
     </div>
 
@@ -132,10 +167,12 @@ redirect_from:
 
   <section class="home-section" id="interests">
     <p class="section-kicker">Outside research</p>
-    <h2 class="section-title">I also care about the human side of building good technology.</h2>
+    <h2 class="section-title">I like work that connects technical depth with real human questions.</h2>
     <p class="interest-line">
-      Music, movies, and sports keep me curious outside the lab. I enjoy conversations
-      about language models, long-context systems, and how research ideas become useful tools.
+      Music, movies, and sports keep me grounded outside the lab. They remind me
+      that intelligence is not only about solving hard problems, but also about taste,
+      emotion, creativity, teamwork, and lived experience. I enjoy meeting people who
+      are curious about AI, long-context systems, and how research ideas become useful tools.
     </p>
   </section>
 
