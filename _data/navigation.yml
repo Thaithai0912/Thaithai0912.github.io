@@ -1,12 +1,18 @@
 main:
-  - title: "Research"
-    url: /#research
+  - title: "Home"
+    url: /
 
   - title: "Publications"
-    url: /#publications
+    url: /publications/
+
+  - title: "Research"
+    url: /research/
 
   - title: "CV"
     url: /cv/
+
+  - title: "Personal"
+    url: /personal/
 
   - title: "Contact"
     url: /#contact
