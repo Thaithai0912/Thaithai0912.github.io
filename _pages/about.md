@@ -20,7 +20,7 @@ redirect_from:
 
     <div class="hero-center">
       <div class="hero-portrait-frame">
-        <img src="/images/Image_Editor.png" alt="Portrait of Thai Zhen Leng">
+        <img src="/images/zhen-leng-graduation.png" alt="Thai Zhen Leng in graduation robes">
       </div>
 
       <p class="eyebrow">THUNLP · Tsinghua University</p>

@@ -36,7 +36,7 @@ assert_not_contains() {
 assert_contains "$INDEX_FILE" "Thai Zhen Leng"
 assert_contains "$INDEX_FILE" "戴振宁"
 assert_contains "$INDEX_FILE" "THUNLP"
-assert_contains "$INDEX_FILE" "images/Image_Editor.png"
+assert_contains "$INDEX_FILE" "images/zhen-leng-graduation.png"
 assert_contains "$INDEX_FILE" "thaizhenleng123@gmail.com"
 assert_contains "$INDEX_FILE" "scholar.google.com/citations?user=9uaxvAkAAAAJ"
 assert_contains "$INDEX_FILE" "LLM Architecture"
