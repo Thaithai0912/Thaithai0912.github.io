@@ -16,7 +16,7 @@ Education
 
 * M.S. in Computer Science and Technology, Tsinghua University, 2024-2026
   * THUNLP Lab, advised by Prof. Zhiyuan Liu
-  * GPA: 3.95/4.0
+  * GPA: 3.9/4.0
   * Chinese Government Scholarship
 * B.S. in Computer Science and Technology, Tsinghua University, 2020-2024
   * GPA: 3.85/4.0
@@ -34,7 +34,7 @@ Research interests
 Selected experience
 ======
 
-* ModelBest Inc., LLM Algorithm Engineer Intern, February 2024-February 2026
+* THUNLP + ModelBest Inc., LLM Algorithm Researcher Intern, February 2024-June 2026
   * Worked on MiniCPM-SALA hybrid attention for efficient long-context inference.
   * Engineered tokenizer and data compression logic for the MiniCPM series.
   * Optimized hyperparameter frameworks and scaling-law analysis for small model performance.
@@ -78,6 +78,13 @@ Selected projects and publications
   * Scalable training strategies for capable small language models.
 
 \* denotes co-first author. I publish primarily as **Zhen Leng Thai**; my Chinese name is **Zhenning Dai** / 戴振宁.
+
+Teaching and invited talks
+======
+
+* Teaching Assistant, Natural Language Processing, 2025
+* Teaching Assistant, Natural Language Processing, 2026
+* Guest Speaker, Towards Artificial Intelligence, 2026
 
 Awards
 ======
